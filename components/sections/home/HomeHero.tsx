@@ -6,9 +6,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { CLINIC_INFO } from '@/lib/clinic-data';
 import { isReducedMotion } from '@/lib/motion';
 
-const FRAME_COUNT = 240;
+const FRAME_COUNT = 300;
 const framePath = (index: number) =>
-  `/frames/monarca-hero/ezgif-frame-${String(index + 1).padStart(3, '0')}.jpg`;
+  `/frames/monarca/ezgif-frame-${String(index + 1).padStart(3, '0')}.jpg`;
 
 if (typeof window !== 'undefined') gsap.registerPlugin(ScrollTrigger);
 
